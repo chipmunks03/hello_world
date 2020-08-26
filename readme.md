@@ -1,5 +1,5 @@
-﻿#功能支持
-##1.用户操作
+# 功能支持
+## 1.用户操作
 - 微信用户首次浏览创建用户资料，篱笆币+10，每日首次登陆篱笆币+1
 - 用户认证：用户填写用户信息完成认证 
   - 类型分类：1, '高校学生' 2, '北京大学' 3, '清华大学' 4, '社会人' 5, '未认证
@@ -51,19 +51,19 @@
 	- 通过认证的用户每次发布消息(任务/话题/活动)可获得“2枚篱笆币”，分享转发消息(任务/话题/活动)至其他好友、微信群，奖励1枚“篱笆币”
 	- 完成用户认证的用户，赠送10枚“篱笆币”
 	- 未认证的用户，只能发布任务, 每次发布消耗2枚“篱笆币”
-##2.管理员操作
+## 2.管理员操作
 - User管理
 - MissionReward管理
 - Activity管理
 - Topic管理
-##3.微信公众号相关
+## 3.微信公众号相关
 - 每日定时推送模板
 	每天21:00向认证用户推送‘服务状态通知’ 模板，向非认证用户推送模板信息"用户认证状态提醒" 模板
 	每天9：00向非认证用户推送模板信息"用户认证状态提醒" 模板
 - 公众号菜单设置
 - 公众号消息
 	处理订阅、文本、其他消息
-#后端接口
+# 后端接口
 - required(func)
 - OauthToken(request)
 - get_list(request, obj)
@@ -85,7 +85,7 @@
 - post_formId(request)
 - wxpa_menu_config(request)
 - wxpa_reply(request):
-#数据库列表
+# 数据库列表
 ## User
                 id, AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 nickName, CharField(blank=True, max_length=40, verbose_name='昵称')),
